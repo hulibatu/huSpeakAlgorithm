@@ -1,5 +1,6 @@
 package com.algorithm.sort;
 
+import java.util.Arrays;
 import java.util.Stack;
 
 /**
@@ -19,8 +20,8 @@ public class QuickSort {
 
     public int[] sort(int[] array) {
 //        sort1(array, 0, array.length - 1);
-        sort2(array);
-//        sortThreeWay(array, 0, array.length - 1);
+//        sort2(array);
+        sortThreeWay(array, 0, array.length - 1);
         return array;
     }
 
@@ -78,7 +79,7 @@ public class QuickSort {
 
             int pivotIndex = partition(array, s, e);
 
-            if (pivotIndex < s) {
+            if (pivotIndex > s ) {
                 stack.push(s);
                 stack.push(pivotIndex - 1);
             }

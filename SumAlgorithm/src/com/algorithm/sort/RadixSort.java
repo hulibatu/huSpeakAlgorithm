@@ -7,7 +7,7 @@ package com.algorithm.sort;
  * <p>
  * 两种实现方式
  * 1.MSD（Most significant digital） 从最左侧高位开始进行排序
- * 2.LSD （Least significant digital）从最右侧低位开始进行排序
+ * 2.LSD（Least significant digital）从最右侧低位开始进行排序
  * <p>
  * LSD 为例
  * 1.取得数组中的最大数，并取得位数；

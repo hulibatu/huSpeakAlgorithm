@@ -1,4 +1,4 @@
 package com.algorithm.tree.btree;
 
-public class LearnBMinusTree {
+public class Learn234Tree {
 }
